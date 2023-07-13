@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import rlogo from "../assets/rlogo.png";
 
 const Navbar = () => {
   const links = [
@@ -11,7 +12,7 @@ const Navbar = () => {
         </>
       ),
       href: "https://www.instagram.com/russel_basket/?igshid=MzRlODBiNWFlZA%3D%3D",
-      style : "hover: cursor-pointer hover:scale-105  "
+      style: "hover: cursor-pointer hover:scale-105  ",
     },
     {
       id: 2,
@@ -21,16 +22,16 @@ const Navbar = () => {
         </>
       ),
       href: "https://wa.me/918052663908",
-      style : "hover: cursor-pointer hover:scale-105 "
+      style: "hover: cursor-pointer hover:scale-105 ",
     },
   ];
   return (
     <div>
-      <nav className="p-2 md:flex md:items-center border-b-2" >
+      <nav className="p-2 md:flex md:items-center border-b-2">
         <div className="p-2">
           <img
             className="hover:scale-105 duration-500 h-28 w-28 m-auto md:h-20 md:w-auto"
-            src="src\assets\rlogo.png"
+            src={rlogo}
             alt="russellbasketlogo"
           />
         </div>
