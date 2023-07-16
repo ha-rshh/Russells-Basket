@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className="m-auto flex-col text-center ">
           <h1 className="text-yellow-300 text-6xl pt-2 font-signature tracking-wider">
-            Russell's Basket
+            Russel's Basket
           </h1>
           <h3 className="text-yellow-200 relative bottom-2 font-thin">
             Gifting made easy
